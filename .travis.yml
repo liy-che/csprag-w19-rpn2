@@ -1,5 +1,5 @@
 language: python
 python: 3.5
 before_install: pip install coveralls
-script: make test
+script: python -m unittest
 after_success: coveralls
