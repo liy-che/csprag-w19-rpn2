@@ -1,4 +1,3 @@
-import coveralls
 import unittest
 import rpn
 
